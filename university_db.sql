@@ -2,7 +2,7 @@
 
 -- Step 1: Creating the 'students' table to store student details
 CREATE TABLE students (
-    student_id SERIAL PRIMARY KEY,   -- Primary key for each student, auto-incremented
+    student_id SERIAL PRIMARY KEY,   
     student_name VARCHAR(50),        
     age INT,                       
     email VARCHAR(100),             
